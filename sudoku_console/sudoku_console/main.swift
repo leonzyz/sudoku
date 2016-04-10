@@ -15,13 +15,10 @@ for row in 1...9{
 	var this_row=[Int]();
 	for col in 1...9{
 		let tmp=arc4random()%9+1;
-		print("\(tmp)\t",terminator:"");
+		//print("\(tmp)\t",terminator:"");
 		this_row.append(Int(tmp));
 	}
+    print("\(this_row)");
 	sudoku_table.append(this_row);
 }
 
-
-// test git
-//test 2
-//test 3
